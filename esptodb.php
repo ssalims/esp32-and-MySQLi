@@ -72,8 +72,11 @@ else {
 }
 
 function test_input($data) {
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
+    $data = trim($data); //remove whitespace
+    $data = stripslashes($data); //removes backslashes
+    $data = htmlspecialchars($data); //to converts special characters 
+    //& (ampersand), " (double quote), ' (single quote), < (less than), > (greater than)) 
+    //to HTML entities ( i.e. & (ampersand) becomes &amp, ' (single quote) becomes &#039, 
+    //< (less than) becomes &lt; (greater than) becomes &gt; ).
     return $data;
 }
