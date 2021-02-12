@@ -35,7 +35,7 @@ if ($conn->connect_error) {
 
 $sql = "SELECT logDateTime, rackID, tempValue, humidValue, rackStatus FROM $tablename ORDER BY id DESC";
 
-echo '<table cellspacing="5" cellpadding="5">
+echo '<table cellspacing="5" cellpadding="5" table="0">
       <tr> 
         <td>Rack ID</td> 
         <td>Timestamp</td> 
