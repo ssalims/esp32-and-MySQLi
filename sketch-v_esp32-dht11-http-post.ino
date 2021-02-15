@@ -22,11 +22,11 @@
 #endif
 
 // Replace with your network credentials
-const char* ssid     = "air24";//REPLACE_WITH_YOUR_SSID";
-const char* password = "polis12345";//REPLACE_WITH_YOUR_PASSWORD";
+const char* ssid     = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
 // REPLACE with your Domain name and URL path or server's IP address with path
-const char* serverName = "http://192.168.1.102/a-my/esptodb.php";
+const char* serverName = "http://server_ip_add/a-my/esptodb.php";
 
 // Keep this API Key value to be compatible with the PHP code provided in the project page. 
 // If you change the apiKeyValue value, the PHP file "/esptodb.php" also needs to have the same key 
